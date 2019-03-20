@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kyle's Responsive Site</title>
+<style>
+header{
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  text-align: center;
+  margin-bottom:30px;
+
+}
+
+main{
+  width: 80%;
+  height:auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer{
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+h1{
+  color: green;
+  margin: 0 auto;
+}
+
+h3{
+  color: green;
+  margin: 0 auto;
+}
+nav{
+  width: 90%;
+  margin:0 auto;
+}
+nav ul{
+margin-left: -15px;
+}
+
+nav ul li{
+ list-style:none;
+ display:inline-block;
+ margin-right:20px;
+}
+
+nav ul li a{
+color:green;
+text-decoration: none;
+}
+
+nav ul li a:hover{
+  color:white;
+}
+
+body{
+  background-color: aqua;
+}
+
+#sect1{
+  margin-top: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+
+
+p{
+  color: green;
+}
+
+#sect2{
+  margin-top:20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cutecaptions{
+  height:auto;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  color:green;
+
+}
+
+.herocaptions{
+  height: auto;
+  display:inline-block;
+  margin:0 auto;
+  text-align: center;
+}
+
+.cuteimages{
+  width: 80%;
+  margin: 0 auto;
+}
+
+a{
+  color: green;
+}
+a:hover{
+  color: white;
+}
+.titles{
+  margin-top:30px;
+}
+
+#grid1{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#grid2{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#sect4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+#mytext{
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.myimages{
+  margin-top: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.moviep{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.headers{
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+#sect1{
+  display: block;
+  margin: 0 auto;
+}
+
+#sect2{
+  display:block;
+  width:100%;
+  margin: 0 auto;
+}
+
+.cuteimages{
+  margin-top: 30px;
+}
+.myimages{
+  margin-top: 30px;
+}
+
+#sect3{
+  display: block;
+  width:100%;
+  margin: 0 auto;
+}
+
+#sect4{
+  display:block;
+  margin: 0 auto;
+}
+#grid1{
+  display: block;
+  margin: 0 auto;
+}
+
+#grid2{
+  display: block;
+  margin: 0 auto;
+}
+.myimages{
+  width: 80%;
+}
+
+}
+
+
+</style>
+
+  </head>
+  <body>
+    <header>
+   <h1>Talkin Bout Dogs</h1>
+   <h3>Let's Get Started</h3>
+   <nav>
+     <ul>
+       <li><a href="#sect1">Dog Heroes</a></li>
+       <li><a href="#sect2">Cute Dog Pictures</a></li>
+       <li><a href="#sect3">My Dogs</a></li>
+       <li><a href="#sect4">Dogs in Movies</a></li>
+     </ul>
+   </nav>
+
+    </header>
+
+
+
+    <main>
+<h1 class="titles">Dog Heroes</h1>
+<section id="sect1">
+
+<div class="herocaptions">
+<h3>Naida</h3>
+  <p>Four-year-old Andrei Pavlov was feeding ducks near his home in Krasnoyarsk, Russia, when he fell through the ice into the freezing water of a pond. A stray dog named Naida immediately began barking frantically. Naida had followed Andrei around that day, which Andrei's mother says shows the dog had a premonition of trouble. A woman who feeds the stray dogs of the Siberian city responded to Naida's barking and followed the dog back to the pond. Nearby workers helped her pull the boy out of the freezing water. Andrei spent a few days in the hospital recovering. Naida was adopted by a family that lives 500 km away. The canine adoption was arranged before the near-drowning incident, and the new owners are particularly proud of Naida's heroism.</p>
+</div>
+<div class="herocaptions">
+  <h3>Treo</h3>
+  <p>Treo is a retired member of the British military, and a decorated war hero. The black Labrador was a member of the 104 Military Working Dog Support Unit and served in Afghanistan. There, the trained sniffer twice found hidden bombs in Helmand province in 2008. Treo was awarded the Dickin Medal, the highest military honor for an animal in Britain, in 2010. Sgt. Dave Heyhoe was Treo's handler in the military, and the two served together in Northern Ireland before being shipped to Afghanistan. When both completed their military service, Treo went home to live with Heyhoe, who said Treo's action saved the lives of many soldiers.</p>
+</div>
+<div class="herocaptions">
+  <h3>Max</h3>
+  <p>Osmar Persisco of Garibaldi, Brazil, took his dog Max out for exercise in a field and was approached by two robbers who demanded his car keys. When Persisco declined, they shot him, grazing the man's head. That's when Max went into action, jumping up to attack the two men. One ran away immediately, the other shot Max twice in the chest and once in the leg before fleeing himself. Persisco rushed his protector to the vet, where Max was successfully treated for his injuries.</p>
+</div>
+</section>
+
+<h1 class="titles"> Cute Dog Pictures</h1>
+<section id="sect2">
+
+<div class="cutecaptions">
+  <img class="cuteimages" src=images/cutedog.jpg><br>
+  <a href="https://www.flickr.com/photos/bellissima_italia/3936800786">"Does, de brugwachter"</a> by <a href="https://www.flickr.com/people/bellissima_italia/">Yvon</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+</div>
+
+<div class="cutecaptions">
+  <img class=cuteimages src=images/cutedog2.jpg><br>
+  <a href="https://www.flickr.com/photos/62424894@N00/8921367214">"Jack playing ball catching game"</a> by <a href="https://www.flickr.com/photos/62424894@N00">tom@hk</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+</div>
+<div class="cutecaptions">
+  <img class="cuteimages" src=images/cutedog5.jpg><br><a href="https://www.flickr.com/photos/73156278@N08/15773831105">"Harvey"</a> by <a href="https://www.flickr.com/photos/73156278@N08">michaeljohnbutton</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+</div>
+<div class="cutecaptions">
+  <img class="cuteimages" src=images/cutedog4.jpg><br><a href="https://www.flickr.com/photos/7927684@N03/4991568368">"One of these is a girl, don't know which.Brother and sister"</a> by <a href="https://www.flickr.com/photos/7927684@N03">jeffreyw</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+</div>
+<div class="cutecaptions">
+  <img class="cuteimages" src=images/cutedog3.jpg><br>
+  <a href="https://www.flickr.com/photos/133374862@N02/19885595034">"dog-679481_1280"</a> by <a href="https://www.flickr.com/people/133374862@N02/">localpups</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+</div>
+<div class="cutecaptions">
+  <img class="cuteimages" src=images/cutedog6.jpg><br>
+  <a href="https://www.flickr.com/photos/mkwilliams/4772614814">"_OLC9602"</a> by <a href="https://www.flickr.com/people/mkwilliams/">A Continuous Lean</a> is licensed under <a href="https://creativecommons.org/licenses/by/2.0"> CC BY 2.0 </a>
+</div>
+</section>
+
+<h1 class="titles">My Dogs</h1>
+<section id="sect3">
+  <div id="grid1">
+    <img class="cuteimages" src=images/mydogs.jpg>
+    <p id="mytext"> These are pictures of my dogs, Teddy and Dexter. They are about seven years old, and they were apart of the same family. They are both Yorkshire Terriers.</p>
+    <img class="cuteimages" src=images/mydogs2.jpg>
+  </div>
+  <div id="grid2">
+    <img class="myimages" src=images/mydogs3.jpg>
+    <img class="myimages" src=images/mydogs4.jpg>
+  </div>
+
+</section>
+
+<h1 class=titles>Dogs in Movies</h1>
+<section id=sect4>
+<div>
+  <h3 class="headers">Benji</h3>
+  <p class="moviep">You have to be a rotten, miserable, no good grouse to not find Benji a little adorable. He’s a scrappy little stray, just getting by in a dog-eat-dog world. Look, we’re not made of stone. It was a simpler time, and the name stuck in movie dog-dom. The dog wanders the streets to the tunes of soft rock; that’s so chill! He was a pre-cursor to YouTube dog videos! There’s a reason this dog was such a huge star in the ‘70s and ‘80s and in a failed reboot in 2004. His films were huge commercial hits. He survived Chevy Chase’s coked-up werewolf period (Oh Heavenly Dog!).</p>
+</div>
+<div>
+  <h3 class="headers">Toto</h3>
+  <p class="moviep">Toto doesn’t have an especially distinct personality. He’s more or less a pretty normal, sometimes mischievous dog (a cairn terrier, to be exact). What makes him special is that he’s Dorothy’s one true connection to home, the only thread to Kansas that remains unaltered. Whereas the Land of Oz morphs the farmhands into an anthropomorphic lion, scarecrow, and tin man, and the town curmudgeon into a literal witch, Toto actually comes along for the ride with no alternate version of himself in sight. And that’s what makes him unique. He doesn’t gain the ability to talk, or any other magical power, for that matter. He’s just there to remind Dorothy of what she misses, the place she longs to return to, even if she wanted to be anywhere else in the world at the start of the film. There’s no place like home, indeed, and if there’s a character that represents home, it’s Toto.</p>
+</div>
+<div>
+  <h3 class="headers">The Beast</h3>
+  <p class="moviep">When you’re a kid, lots of things seem more frightening than they actually are. That goes for dogs, too. So kudos to The Sandlot director David Mickey Evans for using a variety of oversized prop paws and puppets to portray “The Beast” before we get a good climpse of the mythical neighborhood canine. By turning to such ludicrous conventions—he never tries for a second to make The Beast look real, at least for the first half of the film—he conveys how larger-than-life and frightening the dog is to the kids, while also letting the adults in the audience know that they’re probably letting their imaginations run a little wild.</p>
+</div>
+<div>
+  <h3 class="headers">Beethoven</h3>
+  <p class="moviep">Before Marley wreaked havoc everywhere he went, there was Beethoven, the Dog of Destruction audiences couldn’t help but love. The 1992 film, co-written by John Hughes under the pseudonym “Edmond Dantès,” has a darker premise than most family fare—the tagline: “A slobbering St. Bernard becomes the center of attention for a loving family, but its veterinarian secretly wants to kill him”—and the American Veterinary Association was rightfully pissed that one of their own was portrayed as the leader of a dog-napping ring. Still, that didn’t stop sales of St. Bernards from spiking after the film’s release, nor the seven (yes, seven) Beethoven sequels that followed, the most recent being the direct-to-VOD Beethoven’s Treasure Trail in 2014. The original is worth a re-watch, though, if not for its big, dumb, and loveable namesake, than for a young Joseph Gordon-Levitt making his film debut as Student #1.</p>
+</div>
+<div>
+  <h3 class:"headers">Cujo</h3>
+  <p class:"moviep">Let’s hope the anti-vaxxers don’t go after rabies shots next—we wouldn’t want Castle Rock to feel too close to home. Cujo’s reign of terror may have been limited to that quiet New England town, but the rabid St. Bernard continues to haunt dreams everywhere. He’s the last canine you’d want to see in a dark alley, and certainly the only one capable of turning a Ford Pinto into a ravaged hunk of metal.</p>
+</div>
+<div>
+  <h3 class:"headers">Hooch</h3>
+  <p class:"moviep">It’s weird to consider that the buddy cop flick had a subgenre of “buddy-cop-and-dog” flicks in the late ‘80s to the early ‘90s, yet Turner & Hooch is the one that’s still totally watchable if it’s on basic cable. Hooch was a gnarly animal, a Dogue de Bordeaux that was humongous and drooly and loveable in spite of eating Turner’s car. Weirdly enough, Henry “The Fonz” Winkler directed this movie for two weeks before getting fired. One can only assume Beasley, who played Hooch, demanded this, and nobody flinched given his size and ferocity</p>
+</div>
+<div>
+  <h3 class:"headers">Old Yeller</h3>
+  <p class:"moviep">Of course Bill Murray already perfectly articulated the tragically identifiable qualities of Old Yeller, that poor damn dog. And he did it in Stripes of all places: “But there’s no animal that’s more faithful, that’s more loyal, more loveable than the mutt. Who saw Old Yeller? Who cried when Old Yeller got shot at the end? Nobody cried when Old Yeller got shot? I’m sure. I cried my eyes out.” </p>
+</div>
+<div>
+  <h3 class:"headers">Lassie</h3>
+  <p class:"moviep">“Homer, are you wearing a tie to impress Laddie?” “Do you think he noticed?” When The Simpsons parodied Lassie with “The Canine Mutiny”, they poked fun at just how tedious the iconic collie could be by being so goddamn perfect. Still, you can’t fault a trusty, benevolent dog, and that’s one reason why her Depression-era adventures were so valuable at the time. She offered hope and redemption with every bark and life-changing favor. Today, we’d proudly open the door for her; that is, if she couldn’t already open it herself. </p>
+
+
+
+</section>
+
+    </main>
+
+
+     <footer>
+
+
+
+     </footer>
+
+
+
+
+
+
+
+
+  </body>
+</html>
