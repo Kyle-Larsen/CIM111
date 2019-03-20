@@ -1,0 +1,44 @@
+@@import "desktop.css";
+
+
+
+#sect1{
+  display: block;
+  margin: 0 auto;
+}
+
+#sect2{
+  display:block;
+  width:100%;
+  margin: 0 auto;
+}
+
+.cuteimages{
+  margin-top: 30px;
+}
+.myimages{
+  margin-top: 30px;
+}
+
+#sect3{
+  display: block;
+  width:100%;
+  margin: 0 auto;
+}
+
+#sect4{
+  display:block;
+  margin: 0 auto;
+}
+#grid1{
+  display: block;
+  margin: 0 auto;
+}
+
+#grid2{
+  display: block;
+  margin: 0 auto;
+}
+.myimages{
+  width: 80%;
+}
