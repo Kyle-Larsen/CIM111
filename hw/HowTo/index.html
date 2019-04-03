@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How To Draw A Perfect Circle</title>
+
+
+</head>
+
+<body>
+<h1>How to Draw a Perfect Circle</h1>
+<h2 id=mouse>Presented by Kyle Larsen</h2>
+<h3 id=click1>Let's Get Started<h3>
+<ul class=list>
+  <li id=step1>Step 1</li>
+  <li id=step2>Step 2</li>
+  <li id=step3>Step 3</li>
+  <li id=step4>Step 4</li>
+  <li id=step5>Step 5</li>
+</ul>
+
+<div id=replaceText>Click the Steps to Begin</div>
+
+
+
+
+<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("body").css("background-color", "aqua");
+    $("body").css("text-align", "center");
+    $("li").css("list-style", "none");
+    $(".list").hide();
+    $("#click1").click(function(){
+      $(".list").toggle(500);
+    });
+
+$("#mouse").mouseenter(function(){
+  $("#mouse").css("color","red");
+});
+$("#mouse").mouseleave(function(){
+  $("#mouse").css("color","black")
+});
+$("#step1").click(function(){
+  $("#replaceText").html("<h4>Bring your Pens and Pencils</h4><img src='Pictures/pens.jpg'>");
+});
+$("#step2").click(function(){
+  $("#replaceText").html("<h4>Bring some Paper</h4><img src'Pictures/pictures.jpg'>")
+});
+$("#step3").click(function(){
+  $("#replaceText").html("<h4>Try it a couple Times</h4><iframe width='939' height='528' src='https://www.youtube.com/embed/-WNR19pPrzI' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>")
+});
+$("#step4").click(function(){
+  $("#replaceText").html("<h4>Give up and find a quarter</h4><img src='Pictures/quarter.jpg'>")
+});
+$("#step5").click(function(){
+  $("#replaceText").html("<h4>Trace the quarter</h4><img src='Pictures/trace.jpg'>")
+});
+
+
+
+
+
+
+
+
+});
+
+</script>
+</body>
+</html>
