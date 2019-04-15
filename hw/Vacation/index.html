@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation</title>
+
+
+<link rel="stylesheet" href="javascript/plugin/tiltedpage-scroll.css">
+
+<style>
+
+  img{
+    width:100%;
+  }
+
+  #page1{
+    margin-bottom:50px;
+  }
+
+  #page2{
+    margin-top:50px;
+  }
+  body{
+    background-color:black;
+    text-allign: center;
+  }
+header{
+  margin:0 auto;
+  text-allign:center;
+  margin-bottom:30px;
+}
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+  }
+p{
+  color:white;
+  font-size:20px;
+  text-align:center;
+}
+li{
+  color:white;
+  font-size:20px;
+  text-align:center;
+  list-style:none;
+}
+h2{
+  color:white;
+  text-align:center;
+}
+
+
+</style>
+
+
+  </head>
+  <body>
+
+
+
+
+<header>
+
+<h1>Welcome to Iceland</h1>
+<p>My family and I recently took a trip to Iceland. During our time there, we saw various landscapes that left us breathless.Some of the various landscapes we saw included</p>
+<ul>
+  <li>Rivers</li>
+  <li>Mountains</li>
+  <li>Waterfalls</li>
+  <li>Glaciers</li>
+  <li>Beaches</li>
+
+  <h2>Please enjoy some photos from my trip</h2>
+
+</header>
+    <div class="main">
+      <section class="page1">
+        <img src="images/church.jpg">
+      </section>
+      <section class="page2">
+        <img src="images/dragonglass.jpg">
+      </section>
+
+      <section class="page3">
+        <img src="images/glacier.jpg">
+      </section>
+      <section class="page4">
+        <img src="images/mountain.jpg">
+      </section>
+      <section class="page5">
+        <img src="images/river.jpg">
+      </section>
+      <section class="page6">
+        <img src="images/waterfall.jpg">
+      </section>
+      <section class="page7">
+        <img src="images/waterfall2.jpg">
+      </section>
+
+    </div>
+
+
+
+
+<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src="javascript/plugin/jquery.tiltedpage-scroll.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".main").tiltedpage_scroll({
+   sectionContainer: "> section",
+   angle: 50,
+   opacity: true,
+   scale: true,
+   outAnimation: true
+ });
+
+});
+
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>
