@@ -1,0 +1,53 @@
+header{
+  width:100%;
+  background-color: black;
+  text-align: center;
+  margin:0 auto;
+  color: white;
+
+}
+h1{
+  text-align: center;
+  margin: 0 auto;
+}
+p{
+  size: 18px;
+}
+
+#Info{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.AboutGrid{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  text-align: center;
+}
+#HomeImage{
+  margin: 0 auto;
+}
+nav{
+  width: 90%;
+  margin:0 auto;
+}
+nav ul{
+margin-left: -15px;
+}
+
+nav ul li{
+ list-style:none;
+ display:inline-block;
+ margin-right:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration: none;
+}
+
+nav ul li a:hover{
+  color:gray;
+}
